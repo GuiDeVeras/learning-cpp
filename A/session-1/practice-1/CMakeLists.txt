@@ -31,6 +31,7 @@ enable_testing()
 
 add_executable (
 	binary_search_test
+	src/binary_search.cpp
 	tests/binary_search_test.cpp
 )
 
