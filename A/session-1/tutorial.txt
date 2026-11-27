@@ -3,4 +3,10 @@ To configure the project run:
 It's necessary only in the first time, when CMakeLists.txt file is changed
 
 To build it:
-cmake --build build && ctest --test-dir build --output-on-failure --timeout 10
+	cmake --build build && ctest --test-dir build --output-on-failure --timeout 10
+
+CMake for GoogleTest: 
+	https://google.github.io/googletest/quickstart-cmake.html
+	
+Style Guide:
+	https://google.github.io/styleguide/cppguide.html
