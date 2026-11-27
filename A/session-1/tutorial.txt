@@ -1,0 +1,6 @@
+To configure the project run:
+	cmake -S . -B build
+It's necessary only in the first time, when CMakeLists.txt file is changed
+
+To build it:
+cmake --build build && ctest --test-dir build --output-on-failure --timeout 10
